@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body{
+    font-family: 'Playfair Display', serif;
+    line-height: 2;
+}
+
+/* Untuk tampilan Home */
+
+.navbar-default{
+    padding-top: 25px;
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-brand{
+    padding: 0;
+}
+.img-logo {
+    width: 80px;
+    height: auto;
+    padding-top: 15px;
+}
+.form-control:focus{
+    border-color: #000;
+    outline: 0;
+    -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, .75), 0 0 0 rgba(102, 175, 223, .6);
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, .75), 0 0 0 rgba(102, 175, 223, .6);
+}
+.form-top{
+    height: 40px;
+    width: 380px !important;
+    border: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0 0 0 rgba(102, 175, 223, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #333;
+    background: transparent;
+}
+.btn-search-top{
+    font-size: 23px;
+    background-color: transparent;
+    border-color: transparent;
+    padding: 0 0 0 10px;
+
+}
+.navbar-form{
+    padding: 0;
+}
+.navbar-top .menu-top{
+    font-size: 16px;
+    font-weight: 900;
+}
+.navbar-top .menu-top >li >a {
+    padding: 15px 0px 15px 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navbar-top .menu-top >li >a:hover{
+    text-decoration: none;
+    color:#000;
+    display: inline-block;
+}
+.home{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    height: auto;
+    min-height: 80vh;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    align-items: center;
+}
+.foto1{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 600px;
+    padding: 50px;
+    margin: 0 -100px;
+}
+.image1{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: 80% 0;
+}
+img{
+    max-width: 100%;
+    border: 0;
+    vertical-align: middle;
+    display: inline-block;
+}
+.containerhome{
+    position: relative;
+    padding-right: 100px;
+    padding-left: 100px;
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+.home-heading{
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 0px;
+    text-transform: none;
+}
+.home-heading{
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 0px;
+    text-transform: none;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    color: #113f59;
+    font-size: 72px;
+    line-height: 1.5;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 40px 60px 40px 40px;
+    text-transform: none;
+}
+.text1{
+    margin-bottom: 50px;
+    padding-right: 40px;
+    color: #05afaa;
+    font-size: 27px;
+    font-weight: 500;
+}
+.button-home{
+    padding: 10px 35px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #333;
+    border-radius: 80px;
+    background-color: transparent;
+    color: #113f59;
+    font-size: 21px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+}
+.button-home:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #113f59;
+    border-color: #333;
+}
+.page-footer{
+    background-color: #222;
+    color: #ccc;
+    padding: 30px 0px;
+}
+.footer-copyright{
+    color: #666;
+    padding: 10px 0;
+}
+.wabutton{
+    width:50px;
+    height:50px;
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    z-index:100;
+}
+.igbutton{
+    width:50px;
+    height:50px;
+    position:fixed;
+    bottom:120px;
+    right:50px;
+    z-index:100;
+}
+.gmailbutton{
+    width:50px;
+    height:50px;
+    position:fixed;
+    bottom:190px;
+    right:50px;
+    z-index:100;
+}
+
+
+
+
+
+.container-1641-home-hero{
+    position: relative;
+    padding-right: 100px;
+    padding-left: 100px;
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+
+
+
+
+/* Untuk Tampilan Discovery Our work */
+section.sec {
+	height:auto;
+	box-sizing: content-box;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.content {
+	scroll-behavior: smooth;
+	width: 100% auto;
+}
+.content-float {
+	position: relative;
+	padding-top: 0px;
+	padding-bottom: 100px;
+	border-radius: 35px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #113f59;
+    margin-bottom: 30px;
+}
+.title-content {
+	font-size: 40px;
+	text-align: center;
+	color: #113f59 ;
+}
+.area-card {
+	position: relative;
+	display: flex;
+}
+.card {
+	margin-left:30px;
+	background: linear-gradient(53.8deg, #113f59 0%, #05afaa  100%);
+	display:block;
+	min-height:180px;
+	width:247px;
+	transition:min-height 0.5s;
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+}
+.card:hover {
+	min-height:350px;
+}
+.card, .card-header {
+	height: 180px;
+}
+.card  .card-body {
+	padding:10px 10px;
+}
+.card  .card-body p{
+	text-align: center;
+	font-size: 17px;
+}
+.tombol-link {
+	background: #fff;
+	color:black;
+	font-size: 16px;
+	padding : 5px 15px;
+	text-decoration: none;
+}
+.tombol-link:hover {
+	background:#fff;
+	padding : 5px 15px;
+	color:#05afaa;
+	box-sizing: content-box;
+	border: 2px ;
+}
+.detail-partner {
+	top:10%;
+    left:10%;
+    right: 10%;
+	width: 80%;
+	position: fixed;
+	z-index: 9999;
+	padding: 5px 15px;
+	border-radius: 15px;
+	transform: translateY(-400%);
+	transition: transform 0.5s;
+	background: #fff;
+}
+.header-detail {
+	margin:0px;
+}
+.header-detail a.tombol-close{
+    background: #05afaa;
+	color: #fff;
+	font-size: 16px;
+	padding : 2px 12px;
+    text-decoration: none;
+    top: 20px;
+    right: 20px;
+    position: fixed;
+}
+.header-detail a.tombol-close:hover {
+    background:#fff;
+    padding : 4px 14px;
+    color:#05afaa;
+    box-sizing: content-box;
+}
+.detail:before {
+	display: none;
+	content: '';
+	background-color: rgba(0,0,0,0.8);
+	position: fixed;
+	top:0;
+	left:0;height: 100%;
+	width: 100%;
+}
+.detail:target .detail-partner{
+	transform: translateY(0%);
+}
+.detail:target:before{
+	display: block;
+}
+
+
+/*Our Services*/
+.content-float2 {
+    min-width: 80%;
+	position: relative;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+.card2 {
+    margin-left: 5%;
+    margin-right: 5%;
+	background: linear-gradient(53.8deg, #113f59 0%, #05afaa  100%);
+	display:block;
+	min-height:370px;
+	width:25%;
+    overflow: hidden;
+    border-radius: 30px;
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: 1px 2px 50px 0px #333;
+}
+
+.card2, .card-header2 {
+	height: 180px;
+}
+
+.card2  .card-body2 {
+	padding:10px 10px;
+}
+
+.card2  .card-body2 p{
+	text-align: center;
+	font-size: 17px;
+}
+section.sec2 {
+	height:auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.title-content2 {
+	font-size: 40px;
+	text-align: center;
+    color: white;
+    margin-left: 40px;
+}
+
+@media (max-width: 769px){
+    .container{
+        max-width: 1024px;
+    }
+}
+
+@media (max-width: 768px){
+    .img-logo{
+        width: 30px;
+        height: auto;
+    }
+    .form-top{
+        width: 100% !important;
+        height: 45px;
+    }
+    h1{
+        font-size: 30px;
+        margin-left: -50px;
+
+    }
+    .containerhome{
+        margin-top: -30%;
+    }
+    .text1{
+        font-size: 17px;
+        margin-top: -10px;
+        margin-left: -50px;
+        margin-right: -50px;
+    }
+    .foto1{
+        margin: -55%;
+    }
+    .image1{ 
+        width: 70%;
+        height: 70%;
+        margin-bottom: 50px;
+    }
+    .button-home{
+        padding: 5px 20px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #333;
+        border-radius: 80px;
+        background-color: transparent;
+        color: #113f59;
+        font-size: 12px;
+        font-weight: 700;
+        text-decoration: none;
+        display: inline-block;
+    }
+    .dicover-our-work{
+        margin-top: -45px;
+        margin-left: -55px;
+        margin-bottom: 130px;
+    }
+    .page-footer{
+        margin-top: 50px;
+    }
+    .wabutton{
+        width:30px;
+        height:30px;
+        position:fixed;
+        bottom:50px;
+        right:20px;
+        z-index:100;
+    }
+    .igbutton{
+        width:30px;
+        height:30px;
+        position:fixed;
+        bottom:100px;
+        right:20px;
+        z-index:100;
+    }
+    .gmailbutton{
+        width:30px;
+        height:30px;
+        position:fixed;
+        bottom:150px;
+        right:20px;
+        z-index:100;
+    }
+    .content {
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 90% ;
+        padding-bottom: 5px;
+    }
+    .detail-sekolah {
+        top:30%;
+        left:8%;
+        width: 80%;
+    }
+
+    section.sec {
+        padding-bottom: 20px;
+    }
+
+    .area-card {
+        display:block;
+    }
+
+    .card {
+        display:block;
+        width: 85%;
+        margin-bottom: 20px;
+    }
+    .card:hover {
+        min-height:380px;
+    }
+    .card, .card-header {
+        height: 200px;
+    }
+    
+    .title-content {
+        margin: 0px 20px 0px 40px; 
+        font-size: 24px;
+        text-align: center;
+        color: #113f59 ;
+    }
+    .tombol-link {
+        font-size: 16px;
+        margin-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    .w-input, .w-select {    
+        min-width: 120%;
+        
+    }
+    .title-content2 {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 15px;
+        padding: 0px;
+    }
+    .text-block-63 {
+        font-size: 12px;
+        margin-left: 15px;
+        margin-right: -50px;
+        margin-top: -10px;
+        margin-bottom: -25px;
+    }
+    .container-1641-home-hero{
+        max-width: auto;
+        padding: 0px;
+    }
+    .div-block-46 {
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+    .submit-button{
+        margin: 30%;
+    }
+    .card2 {
+        margin-left: 10%;
+        display:block;
+        min-width: 80%;
+        margin-bottom: 20px;
+        min-height: 260px;
+        overflow: hidden;
+    }
+    .card2  .card-body2 p{
+        text-align: center;
+        font-size: 12px;
+    }
+    .card2, .card-header2 {
+        height: 120px;
+    }        
+}
